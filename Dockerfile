@@ -3,3 +3,5 @@ COPY src/html /usr/share/nginx/html
 #EXPOSE PORT 80
 
 CMD ["nginx", "-g", "daemon off;"]
+
+#test run
